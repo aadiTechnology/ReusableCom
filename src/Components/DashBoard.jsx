@@ -36,6 +36,14 @@ function DashBoard() {
          </Card>
           </Link>
          </Grid>
+         <Grid item xs={2}>
+         <Link to="/AttandaceTable">
+         <Card sx={{height:"30px"}}>
+         AttandaceTable
+         </Card>
+          </Link>
+         </Grid>
+         
        </Grid>
     </div>
   )

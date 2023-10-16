@@ -7,6 +7,7 @@ import Calender from './Components/Calender';
 import DashBoard from './Components/DashBoard';
 import ProgressRemarks from './Components/ProgressRemarks';
 import SchoolAttendaceOverview from './Components/SchoolAttendaceOverview';
+import AttandaceTable from './Components/AttandaceTable';
 
 
 
@@ -28,6 +29,7 @@ function App() {
     <Route exact path='/Calender' element={<Calender/>}></Route>
     <Route exact path='/ProgressRemarks' element={<ProgressRemarks/>}></Route>
     <Route exact path='/SchoolAttendaceOverview' element={<SchoolAttendaceOverview/>}></Route>
+    <Route exact path='/AttandaceTable' element={<AttandaceTable/>}></Route>
     </Routes>
     
     </BrowserRouter>
