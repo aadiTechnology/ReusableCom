@@ -8,6 +8,7 @@ import DashBoard from './Components/DashBoard';
 import ProgressRemarks from './Components/ProgressRemarks';
 import SchoolAttendaceOverview from './Components/SchoolAttendaceOverview';
 import AttandaceTable from './Components/AttandaceTable';
+import CheckBoxSchool from './Components/CheckBoxSchool';
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <Route exact path='/ProgressRemarks' element={<ProgressRemarks/>}></Route>
     <Route exact path='/SchoolAttendaceOverview' element={<SchoolAttendaceOverview/>}></Route>
     <Route exact path='/AttandaceTable' element={<AttandaceTable/>}></Route>
+    <Route exact path='/CheckBoxSchool' element={<CheckBoxSchool/>}></Route>
     </Routes>
     
     </BrowserRouter>

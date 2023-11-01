@@ -43,6 +43,13 @@ function DashBoard() {
          </Card>
           </Link>
          </Grid>
+         <Grid item xs={2}>
+         <Link to="/CheckBoxSchool">
+         <Card sx={{height:"30px"}}>
+         CheckBoxSchool
+         </Card>
+          </Link>
+         </Grid>
          
        </Grid>
     </div>
