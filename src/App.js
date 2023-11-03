@@ -9,6 +9,8 @@ import ProgressRemarks from './Components/ProgressRemarks';
 import SchoolAttendaceOverview from './Components/SchoolAttendaceOverview';
 import AttandaceTable from './Components/AttandaceTable';
 import CheckBoxSchool from './Components/CheckBoxSchool';
+import HederCheck from './Components/HederCheck';
+
 
 
 
@@ -32,6 +34,7 @@ function App() {
     <Route exact path='/SchoolAttendaceOverview' element={<SchoolAttendaceOverview/>}></Route>
     <Route exact path='/AttandaceTable' element={<AttandaceTable/>}></Route>
     <Route exact path='/CheckBoxSchool' element={<CheckBoxSchool/>}></Route>
+    <Route exact path='/HeaderCheck' element={<HederCheck/>}></Route>
     </Routes>
     
     </BrowserRouter>

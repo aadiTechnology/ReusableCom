@@ -49,6 +49,18 @@ function DashBoard() {
          CheckBoxSchool
          </Card>
           </Link>
+
+          
+         </Grid>
+
+         <Grid item xs={2}>
+         <Link to="/HeaderCheck">
+         <Card sx={{height:"30px"}}>
+         HeaderCheck
+         </Card>
+          </Link>
+
+          
          </Grid>
          
        </Grid>
