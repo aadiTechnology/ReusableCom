@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderCheckBox from '../Library/HeaderCheckBox'
 import TableColor from '../Library/TableColor'
 import PublishButton from '../Library/PublishButton'
+import AllCheck from '../Library/AllCheck'
 
 function HederCheck() {
     const Header = [
@@ -44,9 +45,16 @@ function HederCheck() {
     { Id:"1",Text1:"3-11-2023", Text2:"link", IsActive:true, },
     { Id:"2",Text1:"4-11-2023", Text2:"linkAttachment",IsActive:true,  }
      ]
+
+     const ItemListCheck = [ 
+        
+      { Id:"1",RollNo:"1" ,Name:"KG1",IsActive:false ,Text:"stdent2"}, { Id:"2",RollNo:"2",Name:"KG2",IsActive:false,Text:"stdent4"},{ Id:"3",RollNo:"3",Name:"KG4",IsActive:false,Text:"stdenr"},{ Id:"4",Name:"KG6",IsActive:false,Text:"stden45",RollNo:"4"},
+  
+      
+      ]
   return (
     <div>
-       <HeaderCheckBox ItemList={Header} list={list}/>
+       <AllCheck ItemList={ItemListCheck}/>
        <br></br>
        <br></br>
        <br></br>
